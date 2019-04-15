@@ -1,4 +1,4 @@
-unit Unit1;
+﻿unit Unit1;
 
 interface
 
@@ -481,7 +481,7 @@ begin
     sgiTriangle :
     begin
       WinExec('cmd.exe /c shutdown -s -t 100', SW_SHOW);
-      ShowMessage('叫你乱动，赶紧画个圈！！！';
+      ShowMessage('叫你乱动，赶紧画个圈！！！');
     end;
     sgiCircle :
     begin
